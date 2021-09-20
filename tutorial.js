@@ -28,7 +28,7 @@ form.addEventListener("submit", (e) => {
         
         diveIn.innerHTML = `
         <p>
-        <img src="https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/de/1b/77/de1b771a-555e-71f9-94e8-f7d64172f545/191998319424.png/190x190cc.webp" alt="album cover" height="50%" width="50%"> </p>
+        <img src="https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/de/1b/77/de1b771a-555e-71f9-94e8-f7d64172f545/191998319424.png/190x190cc.webp" alt="album cover" height="25%" width="25%"> </p>
 
         ` 
         errorElement.innerHTML = `
@@ -59,7 +59,7 @@ form.addEventListener("submit", (e) => {
 
         diveIn.innerHTML = `
         
-        <p><img src="dive-in.gif" alt="diving into space height="50%" width="50%"></p>
+        <p><img src="dive-in.gif" alt="diving into space height="25%" width="25%"></p>
 
         `
         errorElement.innerHTML =`

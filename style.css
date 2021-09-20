@@ -10,9 +10,6 @@
     display: flex;
 }
 
-
-}
-
 .gif-div {
     background-color: black;
     height: 100%;
@@ -40,13 +37,14 @@
 }
 
 .input {
-font-size: 20px;
+font-size: 30px;
 font-family: 'Courier New', Courier, monospace;
 border-radius: 25px;
-border: 1px solid #1a1a1a;
+border: 1px solid #000000;
 padding: 20px;
 margin-bottom: 10px;
-width: 4in;
+/* width: 5in; */
+width: 90%;
 resize: vertical;
 
 height: 1px;
