@@ -28,14 +28,14 @@ form.addEventListener("submit", (e) => {
         
         diveIn.innerHTML = `
         <p>
-        <img src="https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/de/1b/77/de1b771a-555e-71f9-94e8-f7d64172f545/191998319424.png/190x190cc.webp" alt="album cover" height="50%" width="50%"> </p>
+        <img src="https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/de/1b/77/de1b771a-555e-71f9-94e8-f7d64172f545/191998319424.png/190x190cc.webp" alt="album cover" height:"100%" width:"100%"> </p>
 
         ` 
         errorElement.innerHTML = `
 
         <h1>${userName.value}!</h1>
 
-        <p>Mason Ranking: # ${stats.length * 6}th.</p>
+        <p>Mason Ranking: ${stats.length * 6}th.</p>
 
         <h3> Producer Spotlight: Fabric + Frequency</h3>
 
@@ -65,7 +65,7 @@ form.addEventListener("submit", (e) => {
         errorElement.innerHTML =`
         <h1> Yo ${userName.value}! </h1>
 
-        <p>Code Mason Ranking: ${stats.length * 6}th </p>
+        <p>Mason Ranking: ${stats.length * 6}th </p>
 
         New to coding -- NP! Just head over to FreeCodeCamp.org & sign up for a free account.
 
