@@ -42,8 +42,10 @@
 }
 
 .footer-container {
-    background-color: rgba(45, 43, 46, 0.486);
+    background-color: rgba(10, 3, 14, 0.486);
     display: flex;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica Bold, sans-serif;
     align-items: center;
     height: 150px;
 
@@ -54,7 +56,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 400px;
+    height: 200px;
     font-family: 'Courier New', Courier, monospace;
     position: relative;
     display: block;
