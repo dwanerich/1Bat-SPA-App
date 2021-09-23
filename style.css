@@ -47,18 +47,50 @@
     color: yellow;
 }
 
-.footer-container {
+.either-or-container {
     background-color: rgba(10, 3, 14, 0.486);
     display: flex;
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica Bold, sans-serif;
     align-items: center;
     height: 150px;
+}
+
+.code-box {
+    color:rgb(13, 240, 43);
+    background-repeat: no-repeat;
+    background-position-x: unset;
+    border: 1px;
+    width: 50%;
+    height: 400px;
+    border-color: yellow;
+    background-color: rgb(255, 255, 255);
+}
+
+.beat-box {
+    border: 1px;
+    height: 400px;
+    width: 50%;
+    background-color: yellow;
+    background-repeat: no-repeat;
 
 }
 
-.producer-container {
+.code-box:hover {
     background-image: url("maschine-beats.gif");
+    background-color: rgb(211, 165, 211);
+    border: 1px;
+}
+
+.beat-box:hover {
+    background-color: rgb(89, 165, 189);
+    border: 1px;
+    width: 50%;
+}
+
+.producer-container {
+    /* background-image: url("maschine-beats.gif"); */
+    background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -139,6 +171,7 @@ box-shadow: 0 0 11px rgba(21, 24, 26, 0.555);
     font-size: 33px;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(255, 238, 0);
+    padding-bottom: 2.5in;
   
 }
 
