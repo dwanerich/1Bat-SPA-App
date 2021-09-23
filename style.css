@@ -38,7 +38,13 @@
 .social-container {
     background-color: black;
     display: flex;
+    display: inline-flexbox;
     align-items: center;
+    font-family: Arial, Helvetica Bold, sans-serif;
+}
+
+.social-container:hover {
+    color: yellow;
 }
 
 .footer-container {
@@ -62,6 +68,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
 
 .gif-div {
@@ -96,7 +103,7 @@
 font-size: 20px;
 font-family: 'Courier New', Courier, monospace;
 border-radius: 25px;
-border: 1px solid #000000;
+border: 1px transparent;
 padding: 20px;
 margin-bottom: 10px;
 width: 50%;
@@ -108,30 +115,27 @@ outline: none;
 
 .buttons {
 background-color: rgb(129, 137, 143);
-font-size: 30px;
 font-family: 'Courier New', Courier, monospace;
 border-radius: 25px;
 border: transparent;
-padding: 29px;
-margin-bottom: 4px;
 width: fit-content;
 resize: vertical;
-height: 25px;
 outline: transparent;
 }
 
 .buttons:hover {
-background-color: rgb(90, 66, 31);
+background-color: rgb(13, 240, 43);
 box-shadow: 0 0 11px rgba(33,33,33,.2);
 color: rgb(0, 0, 0);
 }
 
 .input:hover {
-box-shadow: 0 0 11px rgba(33,33,33,.2); 
+box-shadow: 0 0 11px rgba(21, 24, 26, 0.555);
 }
 
 .error-div {
-    width: fit-content;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
     font-size: 33px;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(255, 238, 0);
