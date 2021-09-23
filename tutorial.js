@@ -69,7 +69,7 @@ form.addEventListener("submit", (e) => {
 
         New to coding -- NP! Just head over to FreeCodeCamp.org & sign up for a free account.
 
-         Start with FrontEndCurriculum, work thru 1/2 the module then loop back in with us to discuss your ideas for your first project.
+         Start with Responsive Web Design (300 Hours).
 
         Happy Coding,
 
