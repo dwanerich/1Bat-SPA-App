@@ -45,7 +45,8 @@
 }
 
 .social-container:hover {
-    color: yellow;
+    color:rgb(255, 238, 0);
+;
 }
 
 .either-or-container {
@@ -64,7 +65,8 @@
     border: 1px;
     width: 50%;
     height: 400px;
-    border-color: yellow;
+    border-color:rgb(255, 238, 0);
+
     background-color: rgb(255, 255, 255);
 }
 
@@ -73,7 +75,8 @@
     background-position: center;
     background-color: rgb(211, 165, 211);
     border: 1px;
-    color: yellow;
+    color: rgb(255, 238, 0);
+
 }
 
 .code-box:active {
@@ -83,7 +86,8 @@
     border: 1px;
     height: 400px;
     width: 50%;
-    background-color: yellow;
+    background-color:rgb(255, 238, 0);
+
     background-repeat: no-repeat;
     color: transparent;
 }
@@ -164,7 +168,8 @@ outline: none;
 
 .input:hover {
 /* box-shadow: 0 0 11px rgba(21, 24, 26, 0.555); */
-box-shadow: 0 0 15px rgb(240, 204, 4);
+box-shadow:rgb(255, 238, 0);
+;
 
 }
 
@@ -197,7 +202,8 @@ color: rgb(255, 255, 255);
 
 .sign-up-button {
     border-radius: 25%;
-    border: yellow 1px;
+    border:rgb(255, 238, 0);
+
 }
 
 
