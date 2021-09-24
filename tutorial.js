@@ -65,14 +65,14 @@ form.addEventListener("submit", (e) => {
         
         <p>Mason Ranking: ${stats.length * 6}th </p>
 
-        New to coding -- NP! Just head over to FreeCodeCamp.org & sign up for a free account.
+        New to coding? - NP! Head over to <a href="https://FreeCodeCamp.org" target="_blank">Free Code Camp</a> & sign up for a free account.
 
          Start with Responsive Web Design (300 Hours).
 
         Happy Coding,
 
         1-BAT
-        
+
         `
        
     }
