@@ -27,8 +27,8 @@ form.addEventListener("submit", (e) => {
 
         
         diveIn.innerHTML = `
-        <p>
-        <img src="https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/de/1b/77/de1b771a-555e-71f9-94e8-f7d64172f545/191998319424.png/190x190cc.webp" alt="album cover" height:"100%" width:"100%"> </p>
+
+
 
         ` 
         errorElement.innerHTML = `
@@ -37,11 +37,9 @@ form.addEventListener("submit", (e) => {
 
         <p>Mason Ranking: ${stats.length * 6}th.</p>
 
-        <h3> Producer Spotlight: Fabric + Frequency</h3>
+        <h3> Artist Recommendation: Louis York</h3>
 
-        <p>Available on All Streaming Platforms.
-
-        <p>Inquiries? DM us on IG @1Bat.us.</p>
+        <iframe src="https://open.spotify.com/embed/album/0VtWg7NyAu09zybboQfByM" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
         <p>Happy Beats,</p>
 
@@ -59,12 +57,12 @@ form.addEventListener("submit", (e) => {
 
         diveIn.innerHTML = `
         
-        <p><img src="dive-in.gif" alt="diving into space height="50%" width="50%"></p>
 
         `
         errorElement.innerHTML =`
-        <h1> Yo ${userName.value}! </h1>
 
+        <h1> Yo ${userName.value}! </h1>
+        
         <p>Mason Ranking: ${stats.length * 6}th </p>
 
         New to coding -- NP! Just head over to FreeCodeCamp.org & sign up for a free account.
@@ -74,7 +72,7 @@ form.addEventListener("submit", (e) => {
         Happy Coding,
 
         1-BAT
-
+        
         `
        
     }
