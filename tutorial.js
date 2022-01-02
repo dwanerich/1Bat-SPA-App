@@ -37,16 +37,15 @@ form.addEventListener("submit", (e) => {
 
         <p>Mason Ranking: ${stats.length * 6}th.</p>
 
-        <h3> Artist Recommendation: Louis York</h3>
+        <h3> Suggested Playlist: Soul Freq by Fabric + Frequency</h3>
 
-        <iframe src="https://open.spotify.com/embed/album/0VtWg7NyAu09zybboQfByM" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe src="https://open.spotify.com/embed/playlist/4anat28vEho8eSvtZtgHci" width="100%" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
         <p>Happy Beats,</p>
 
         <p>-1-BAT<p/>
         
         `
-        
     }
 
     // BEATS NEW USER RESPONSE

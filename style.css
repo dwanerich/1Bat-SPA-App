@@ -169,7 +169,7 @@
     left: 0;
 }
 
-.gif-div {
+.nav-div {
     background-color: black;
     height: 100%;
     width: 100%;
@@ -177,6 +177,7 @@
     color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
     display: flex;
+    justify-items: right;
 }
 
 .img {
