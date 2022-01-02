@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
     display: inline-flexbox;
     background-color: rgb(0, 0, 0);
     height: min-content;
@@ -170,14 +170,10 @@
 }
 
 .nav-div {
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    color: rgb(255, 255, 255);
+   
     font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    justify-items: right;
+    color: rgb(58, 93, 124);
+    display: inline;
 }
 
 .img {
