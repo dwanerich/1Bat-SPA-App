@@ -2,7 +2,7 @@ const survey = document.getElementById("survey")
 const form = document.getElementById("form")
 const userName = document.getElementById("username")
 const errorElement = document.getElementById("error")
-const diveIn = document.getElementById('gif-div')
+const diveIn = document.getElementById('form-results-div')
 
 form.addEventListener("submit", (e) => {
     let messages = [], stats = []
@@ -35,7 +35,6 @@ form.addEventListener("submit", (e) => {
 
         <h1>${userName.value}!</h1>
 
-        <p>Mason Ranking: ${stats.length * 6}th.</p>
 
         <h3> Suggested Playlist: Soul Freq by Fabric + Frequency</h3>
 
@@ -62,8 +61,6 @@ form.addEventListener("submit", (e) => {
 
         <h1> Yo ${userName.value}! </h1>
         
-        <p>Mason Ranking: ${stats.length * 6}th </p>
-
         New to coding? - NP! Head over to <a href="https://FreeCodeCamp.org" target="_blank">Free Code Camp</a> & sign up for a free account.
 
          Start with Responsive Web Design (300 Hours).
