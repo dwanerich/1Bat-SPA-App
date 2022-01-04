@@ -36,7 +36,7 @@ form.addEventListener("submit", (e) => {
         <h1>${userName.value}!</h1>
 
 
-        <h3> Suggested Playlist: Soul Freq by Fabric + Frequency</h3>
+        <h3> 2022 Suggested Playlist: Soul Freq by Fabric + Frequency</h3>
 
         <iframe src="https://open.spotify.com/embed/playlist/4anat28vEho8eSvtZtgHci" width="100%" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
@@ -63,7 +63,9 @@ form.addEventListener("submit", (e) => {
         
         New to coding? - NP! Head over to <a href="https://FreeCodeCamp.org" target="_blank">Free Code Camp</a> & sign up for a free account.
 
-         Start with Responsive Web Design (300 Hours).
+         Start with Responsive Web Design (300 Hours). This is the perfect jump-start to your journey to becoming a Software Engineer.
+
+         Please feel to reach out if you have any questions or get stuck. We're here to help.
 
         Happy Coding,
 
