@@ -91,17 +91,27 @@
 
 .creative-box {
     color: transparent;
+    display: inline-flexbox;
     background-repeat: no-repeat;
     background-position-x: unset;
     border: 1px;
     border: solid;
-    width: 25%;
-    height: 100%;
+    width: 100px;
+    height: 100px;
     border-color:rgb(255, 238, 0);
+    border-radius: 25px;
+    padding: px;
     background-color: rgb(222, 227, 233);
     color: black;
-    margin-top: 25px;
-    margin-right: 25px;
+    margin-top: 50px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.creative-box h1 {
+    font-size: small;
+    margin-top: 35px;
 }
 
 .creative-box:hover {
