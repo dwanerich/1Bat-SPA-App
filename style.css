@@ -2,6 +2,7 @@
     display: inline-flexbox;
     background-color: rgb(0, 0, 0);
     height: min-content;
+    cursor: pointer;
 }
 
 .beat-container {
@@ -41,42 +42,23 @@
     align-items: center;
     font-family: Arial, Helvetica Bold, sans-serif;
     justify-content: space-between;
-
 }
 
 .social-container:hover {
     color:rgb(0, 0, 0);
-;
 }
 
-.either-or-container {
+.drum-machine-container {
     background-color: trans;
     display: flex;
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica Bold, sans-serif;
     align-items: center;
     height: 75px;
+    width: 100%;
 }
 
-.code-box {
-    color: transparent;
-    background-repeat: no-repeat;
-    background-position-x: unset;
-    border: 1px;
-    width: 50%;
-    height: 400px;
-    border-color:rgb(255, 238, 0);
-    background-color: rgb(255, 255, 255);
-}
 
-.code-box:hover {
-    /* background-image: url("maschine-beats.gif"); */
-    background-position: center;
-    background-color: rgb(211, 165, 211);
-    border: 1px;
-    color: rgb(255, 238, 0);
-
-}
 
 .creative-projects-container {
     background-color: rgba(196, 196, 196, 0.486);
@@ -89,19 +71,17 @@
     border-color: green;
 }
 
-.creative-box {
-    color: transparent;
+.sound {
+    color: yellow;
     display: inline-flexbox;
     background-repeat: no-repeat;
-    background-position-x: unset;
     border: 1px;
     border: solid;
     width: 100px;
     height: 100px;
-    border-color:rgb(255, 238, 0);
-    border-radius: 25px;
-    padding: px;
-    background-color: rgb(222, 227, 233);
+    border-color:rgb(212, 212, 212);
+    /* border-radius: 25px; */
+    background-color:rgb(212, 212, 212);
     color: black;
     margin-top: 50px;
     text-align: center;
@@ -109,19 +89,19 @@
     margin-left: auto;
 }
 
-.creative-box h1 {
-    font-size: small;
+.sound h1 {
+    font-size: large;
     margin-top: 35px;
 }
 
-.creative-box:hover {
+.sound:hover {
     /* background-image: url("maschine-beats.gif"); */
     background-position: center;
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     border: 1px;
     border: solid;
     color: rgb(255, 238, 0);
-
+    transition: linear;
 }
 
 .projects-box {
@@ -140,7 +120,6 @@
     background-color: rgb(0, 0, 0);
     border: 1px;
     color: rgb(255, 255, 255);
-
 }
 
 .beat-box {
@@ -162,12 +141,12 @@
 }
 
 
-.producer-container {
+.footer-container {
     background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 100px;
+    height: 75px;
     font-family: 'Courier New', Courier, monospace;
     text-align: bottom;
     position: relative;
@@ -177,7 +156,7 @@
     color: white;
 }
 
-.producer-container span {
+.footer-container span {
    font-size: 25px;
    position: absolute;
     bottom: 0;
