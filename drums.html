@@ -37,14 +37,17 @@
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
-            <h5 id="offcanvasRightLabel">1 Brick at A Time <br> Creative Community to Link + Think</h5>
-
+            
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
-            <h5>
-                <a href="index.html">Home</a>
-            </h5>
+        <h5 id="offcanvasRightLabel">1 Brick at A Time </h5>
+        <div class="offcanvas-body" style="text-align: center;">
+            <h3>
+                <a href="index.html">Home</a> <br>
+                <a href="index.html">Branding</a>
+
+            </h3>
+            <h5><br> Creative Community to Link + Think</h5>
         </div>
     </div>
 
@@ -102,7 +105,7 @@
 window.addEventListener('click', function (e) {
        let sample = document.querySelector(`audio[id ="${e.target.id}"]`)
         // console.log(e.target.id)
-
+        if (!sample) return;
         sample.currentTime = 0;
         sample.play()
     })
