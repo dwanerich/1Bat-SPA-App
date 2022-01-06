@@ -1,3 +1,7 @@
+const navigateTo = url => {
+    history.pushState(null, null, url);
+    router()
+}
 // console.log('this is my index.js file')
 
 const router = async () => {
@@ -20,14 +24,22 @@ const router = async () => {
     let match = routeMatches.find(routeMatches => routeMatches.isMatch);
 
     if(!match) {
-        match = {route: routes[0],
-        isMatch: true
+        // home page set to default for routes that !Match
+        match = {
+            route: routes[0],
+            isMatch: true
         };
     }
 
-    console.log(match, routeMatches);
+    console.log(match.route.view());
 };
 
 document.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("click", e => {
+        if (e.target.matches("[data-link]")) {
+            e.preventDefault();
+            navigateTo(e.target.href);
+        }
+    })
     router()
 })
