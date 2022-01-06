@@ -2,7 +2,7 @@
 
 const router = async () => {
     const routes = [
-        {path: "/", view: () => (console.log('viewing dashboard'))},
+        {path: "/", view: () => (console.log('viewing dashboard')) },
         { path: "/drums", view: () => (console.log('viewing drums')) },
         { path: "/branding", view: () => (console.log('viewing branding')) },
 
@@ -19,7 +19,13 @@ const router = async () => {
 
     let match = routeMatches.find(routeMatches => routeMatches.isMatch);
 
-    console.log(match, routeMatches, match);
+    if(!match) {
+        match = {route: routes[0],
+        isMatch: true
+        };
+    }
+
+    console.log(match, routeMatches);
 };
 
 document.addEventListener("DOMContentLoaded", () => {
