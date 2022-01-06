@@ -67,39 +67,45 @@
 
     <span class="drum-machine-container">
     
-        <span data-key="65" class="sound">
-            <h1>A 🔊 </h1>
+        <span id='kick' data-key="65" class="sound" name='808'>
+             
         </span>
     
-        <span data-key="83" class="sound">
-            <h1>🔊 S</h1>
+        <span id='snare' data-key="83" class="sound">
         </span>
-        <span data-key="68" class="sound">
-            <h1>🔊 D</h1>
+        <span id='hat' data-key="68" class="sound">
         </span>
-        <span data-key="70" class="sound">
-            <h1>🔊F</h1>
+        <span id= 'perc' data-key="70" class="sound">
         </span>
     </span>
 </div>
 
-<audio data-key="65" src="kit/KICK_INSIDE_JOB_SUB.wav"></audio>
-<audio data-key="83" src="kit/HH_THEKING.wav"></audio>
-<audio data-key="68" src="kit/CLAP_KNIGHT_IN_SHINING_2.wav"></audio>
-<audio data-key="70" src="kit/CLAP_INSANITY.wav"></audio>
+<audio data-key="65" id='kick' src="kit/KICK_INSIDE_JOB_SUB.wav"></audio>
+<audio data-key="83" id='snare' src="kit/HH_THEKING.wav"></audio>
+<audio data-key="68" id='hat' src="kit/CLAP_KNIGHT_IN_SHINING_2.wav"></audio>
+<audio data-key="70" id='perc' src="kit/CLAP_INSANITY.wav"></audio>
 
 <script defer>
    window.addEventListener('keydown', function(e) {
-    // console.log(e)
+    console.log(e)
     const audio = document.querySelector(`audio[data-key ="${e.keyCode}"]`);
     const key = document.querySelector(`.sound[data-key ="${e.keyCode}"]`);
     console.log('logging key', key)
     if(!audio) return;
     audio.currentTime = 0;
     audio.play()
-
+    key.classList.toggle('playing')
     console.log(audio)
    })
+
+
+window.addEventListener('click', function (e) {
+       let sample = document.querySelector(`audio[id ="${e.target.id}"]`)
+        // console.log(e.target.id)
+
+        sample.currentTime = 0;
+        sample.play()
+    })
 </script>
   
 </body>
