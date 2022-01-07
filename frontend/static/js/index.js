@@ -1,3 +1,9 @@
+import Dashboard from "./views/dashboard.js";
+import Drums from "./views/drums.js";
+import Branding from "./views/branding.js";
+
+
+
 const navigateTo = url => {
     history.pushState(null, null, url);
     router()
@@ -6,9 +12,15 @@ const navigateTo = url => {
 
 const router = async () => {
     const routes = [
-        {path: "/", view: () => (console.log('viewing dashboard')) },
-        { path: "/drums", view: () => (console.log('viewing drums')) },
-        { path: "/branding", view: () => (console.log('viewing branding')) },
+        // {path: "/", view: () => (console.log('viewing dashboard')) },
+        { path: "/", view: Dashboard },
+        { path: "/drums", view: Drums },
+        { path: "/branding", view: Branding },
+
+
+
+        // { path: "/drums", view: () => (console.log('viewing drums')) },
+        // { path: "/branding", view: () => (console.log('viewing branding')) },
 
     ];
 
@@ -31,7 +43,13 @@ const router = async () => {
         };
     }
 
+    // after adding views and implementing view routes
+    const view = new match.route.view();
+
+    document.getElementById('#app').innerHTML = await view.getHtml();
+    
     console.log(match.route.view());
+
 };
 
 window.addEventListener('popstate', router)
